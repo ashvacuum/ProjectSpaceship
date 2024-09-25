@@ -2,9 +2,9 @@ using Unity.Entities;
 using Unity.Transforms;
 using UnityEngine;
 
-namespace ECS.Entities
+namespace ShipECS.Entities
 {
-    public partial class EntitySpawner : SystemBase
+    public partial class ShipSpawner : SystemBase
     {
         protected override void OnCreate()
         {
